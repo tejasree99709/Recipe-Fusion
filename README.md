@@ -69,22 +69,3 @@ cd RecipeIngredientApp
 
 ### 3. Run the Application
 Open a web browser and navigate to `http://localhost/RecipeIngredientApp`.
-
-## 🎨 Customization
-
-### 1. Update Styles
-Modify the styles in `/css/style.css` to match your design preferences.
-
-### 2. Update JavaScript
-Enhance the JavaScript functionality in `/js/script.js` to customize the interactivity.
-
-### 3. Update Content
-Modify the HTML content in `index.php` to personalize the text and recipes.
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Contributors
-
-- [Obada Kraishan](https://github.com/obadaKraishan)
-
