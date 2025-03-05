@@ -23,7 +23,7 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/obadaKraishan/RecipeIngredientApp.git
+git clone https://github.com//RecipeIngredientApp.git
 cd RecipeIngredientApp
 ```
 
@@ -35,44 +35,36 @@ cd RecipeIngredientApp
    CREATE DATABASE recipe_ingredient;
    USE recipe_ingredient;
 
-   CREATE TABLE users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       username VARCHAR(255) NOT NULL UNIQUE,
-       email VARCHAR(255) NOT NULL UNIQUE,
-       password VARCHAR(255) NOT NULL,
-       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-   );
+  CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `city` varchar(100) DEFAULT NULL,
+  `gender` enum('Male','Female','Other') DEFAULT NULL,
+  `bio` text DEFAULT NULL,
+  `profile_image` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+  );
 
-   CREATE TABLE recipes (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       title VARCHAR(255) NOT NULL,
-       description TEXT NOT NULL,
-       instructions TEXT NOT NULL,
-       image VARCHAR(255) NOT NULL,
-       category VARCHAR(255) NOT NULL,
-       created_by INT NOT NULL,
-       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-       FOREIGN KEY (created_by) REFERENCES users(id)
-   );
-
-   CREATE TABLE ingredients (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       recipe_id INT NOT NULL,
-       name VARCHAR(255) NOT NULL,
-       quantity VARCHAR(255) NOT NULL,
-       FOREIGN KEY (recipe_id) REFERENCES recipes(id)
-   );
-
-   CREATE TABLE reviews (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       recipe_id INT NOT NULL,
-       user_id INT NOT NULL,
-       rating INT NOT NULL,
-       comment TEXT,
-       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-       FOREIGN KEY (recipe_id) REFERENCES recipes(id),
-       FOREIGN KEY (user_id) REFERENCES users(id)
-   );
+   CREATE TABLE `recipes` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `instructions` text NOT NULL,
+  `image` varchar(255) NOT NULL,
+  `created_by` int(11) NOT NULL,
+  `video_url` varchar(255) DEFAULT NULL,
+  `category` varchar(255) NOT NULL
+);
+  CREATE TABLE `reviews` (
+  `id` int(11) NOT NULL,
+  `recipe_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `rating` int(11) NOT NULL,
+  `comment` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+);
    ```
 
 ### 3. Run the Application
