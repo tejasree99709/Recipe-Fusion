@@ -71,12 +71,13 @@ cd RecipeIngredientApp
 Open a web browser and navigate to `http://localhost/RecipeIngredientApp`.
 
 
-![Image](https://github.com/user-attachments/assets/14fd0898-c4db-4cf3-808c-608638981807)
-![Image](https://github.com/user-attachments/assets/6296a191-9135-4856-b494-8e4d8815eed1)
-![Image](https://github.com/user-attachments/assets/5016face-63ef-4748-ad63-97b354597d7e)
-![Image](https://github.com/user-attachments/assets/c32d3d58-6e24-4f80-a0da-424c2b382344)
-![Image](https://github.com/user-attachments/assets/b2d72478-7514-42f6-8a24-3b556c88daa7)
-![Image](https://github.com/user-attachments/assets/0828d918-72cf-4f49-8b70-d29427290462)
-![Image](https://github.com/user-attachments/assets/861231b8-12eb-4140-bfeb-971b5bf97776)
-![Image](https://github.com/user-attachments/assets/50805ece-d3c4-4961-b44b-0bd46d644d63)
 ![Image](https://github.com/user-attachments/assets/aa1825dd-1026-4dbe-ac02-72a776bea0c0)
+![Image](https://github.com/user-attachments/assets/50805ece-d3c4-4961-b44b-0bd46d644d63)
+![Image](https://github.com/user-attachments/assets/861231b8-12eb-4140-bfeb-971b5bf97776)
+![Image](https://github.com/user-attachments/assets/0828d918-72cf-4f49-8b70-d29427290462)
+![Image](https://github.com/user-attachments/assets/b2d72478-7514-42f6-8a24-3b556c88daa7)
+![Image](https://github.com/user-attachments/assets/c32d3d58-6e24-4f80-a0da-424c2b382344)
+![Image](https://github.com/user-attachments/assets/5016face-63ef-4748-ad63-97b354597d7e)
+![Image](https://github.com/user-attachments/assets/6296a191-9135-4856-b494-8e4d8815eed1)
+![Image](https://github.com/user-attachments/assets/14fd0898-c4db-4cf3-808c-608638981807)
+
