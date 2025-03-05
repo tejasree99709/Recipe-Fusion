@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Club System</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+        h1 {
+            color: white;
+            font-size: 5em; 
+            font-weight: bold;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('Recipe Fusion.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #333;
+        }
+        nav {
+            background-color: rgb(154,20,127);
+            padding: 25px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            margin-right: 70px;
+            font-size: 1.1em;
+        }
+    .explore{
+        color: black;
+    }
+
+        .nav-link:hover {
+            color: #502c4b;
+        }
+
+        /* Centered Title Section */
+        .center-section {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+        }
+
+        .center-section h1 {
+           
+    font-size: 5em;
+    margin-bottom: 60px;
+    max-width: 90%; /* Adjust the width to your preference */
+    display: block;
+    text-align: center;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+        
+
+        .center-section p {
+            font-size: 1.5em;
+            color: #ecf0f1;
+        }
+        .features {
+            text-align: center;
+            background-color: #ecf0f1;
+            padding: 50px 20px;
+            margin-top: 500px;
+        }
+
+        .features h3 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .features ul {
+            list-style-type: none;
+            font-size: 1.3em;
+        }
+
+        .features li {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(154,20,127);
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #logo-img {
+            width: 80px;
+            height: 50px;
+        }
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+           
+
+            .nav-right {
+                margin-top: 50px;
+            }
+
+            .center-section h1 {
+                font-size: 3em;
+            }
+
+            .features h3 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-right">
+                <a href="/RecipeIngredient/auth/login.php" class="nav-link">Login</a>
+                <a href="/RecipeIngredient/auth/register.php" class="nav-link">Register</a>
+            </div>
+        </div>
+    </nav>
+    <section id="features" class="features">
+        <h3>About Us</h3>
+        <P>Welcome to RecipeFusion, a community-driven recipe-sharing platform where food lovers, home cooks, and professional chefs come together to explore, create, and share their favorite recipes. Whether you're a seasoned cook or just starting your culinary journey, our platform is designed to inspire creativity in the kitchen.
+        </P>
+        <div class ="explore">
+        <a href="/RecipeIngredient/auth/register.php" class="nav-link">Do You Want to explore more about this?</a>
+    </div>
+    </section>
+    <footer>
+        <p>"Great recipes, endless flavors—share, cook, and inspire!"</p>
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
