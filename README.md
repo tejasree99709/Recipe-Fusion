@@ -71,12 +71,3 @@ cd RecipeIngredientApp
 Open a web browser and navigate to `http://localhost/RecipeIngredientApp`.
 
 
-![Image](https://github.com/user-attachments/assets/d1cdc069-6326-4b4d-96ca-9a2f620168f4)
-![Image](https://github.com/user-attachments/assets/8f1623e8-56ad-4ce7-8277-37cca54bcb7d)
-![Image](https://github.com/user-attachments/assets/d1a7792e-41b3-4f3e-9c9a-d55601f69efc)
-![Image](https://github.com/user-attachments/assets/d826d344-a854-4a77-883b-0ac4ece3b17e)
-![Image](https://github.com/user-attachments/assets/e727ce3c-ce54-4c7e-a3de-71ef9b8af540)
-![Image](https://github.com/user-attachments/assets/f99181f9-0224-4606-996e-590577ad4f5d)
-![Image](https://github.com/user-attachments/assets/c498356f-9124-4491-a020-1125ea31d03e)
-![Image](https://github.com/user-attachments/assets/f32cc10f-03a2-4590-b27f-9948a0a85021)
-![Image](https://github.com/user-attachments/assets/045d1965-83b1-4312-933d-a5790f864b1f)
