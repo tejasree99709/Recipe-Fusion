@@ -32,39 +32,39 @@ cd RecipeIngredientApp
 2. Open phpMyAdmin and create a new database named `recipe_ingredient`.
 3. Import the SQL file to set up the tables:
    ```sql
-   CREATE DATABASE recipe_ingredient;
-   USE recipe_ingredient;
+      CREATE DATABASE recipe_ingredient;
+      USE recipe_ingredient;
 
-  CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `city` varchar(100) DEFAULT NULL,
-  `gender` enum('Male','Female','Other') DEFAULT NULL,
-  `bio` text DEFAULT NULL,
-  `profile_image` varchar(255) DEFAULT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-  );
+     CREATE TABLE `users` (
+        `id` int(11) NOT NULL,
+        `name` varchar(100) NOT NULL,
+        `email` varchar(255) NOT NULL,
+        `password` varchar(255) NOT NULL,
+        `city` varchar(100) DEFAULT NULL,
+        `gender` enum('Male','Female','Other') DEFAULT NULL,
+        `bio` text DEFAULT NULL,
+        `profile_image` varchar(255) DEFAULT NULL,
+        `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+     );
 
-   CREATE TABLE `recipes` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) NOT NULL,
-  `description` text NOT NULL,
-  `instructions` text NOT NULL,
-  `image` varchar(255) NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `video_url` varchar(255) DEFAULT NULL,
-  `category` varchar(255) NOT NULL
-);
-  CREATE TABLE `reviews` (
-  `id` int(11) NOT NULL,
-  `recipe_id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `rating` int(11) NOT NULL,
-  `comment` text DEFAULT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-);
+      CREATE TABLE `recipes` (
+        `id` int(11) NOT NULL,
+        `title` varchar(255) NOT NULL,
+        `description` text NOT NULL,
+        `instructions` text NOT NULL,
+        `image` varchar(255) NOT NULL,
+        `created_by` int(11) NOT NULL,
+        `video_url` varchar(255) DEFAULT NULL,
+        `category` varchar(255) NOT NULL
+      );
+     CREATE TABLE `reviews` (
+        `id` int(11) NOT NULL,
+        `recipe_id` int(11) NOT NULL,
+        `user_id` int(11) NOT NULL,
+        `rating` int(11) NOT NULL,
+        `comment` text DEFAULT NULL,
+        `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+   );
    ```
 
 ### 3. Run the Application
