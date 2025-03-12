@@ -68,7 +68,7 @@ cd RecipeIngredientApp
    ```
 
 ### 3. Run the Application
-Open a web browser and navigate to `http://localhost/RecipeIngredientApp`.
+Open a web browser and navigate to http://localhost:8080/RecipeIngredient/.
 
 
 ![Image](https://github.com/user-attachments/assets/aa1825dd-1026-4dbe-ac02-72a776bea0c0)
